@@ -36,7 +36,7 @@ contract HelperConfig is Script {
                 interval: 30,
                 vrfCoordinator: 0x8103B0A8A00be2DDC778e6e7eaa21791Cd364625,
                 gasLane: 0x474e34a077df58807dbe9c96d3c009b23b3c6d0cce433e59bbf5b34f823bc56c,
-                subscriptionId: 0, // Update this with our subId
+                subscriptionId: 8577, // https://vrf.chain.link/sepolia/8577
                 callbackGasLimit: 500000,
                 link: 0x779877A7B0D9E8603169DdbD7836e478b4624789, // Sepolia testnet Chainlink Token 
                 deployerKey: vm.envUint("PRIVATE_KEY")
